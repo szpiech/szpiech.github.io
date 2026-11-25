@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQHJDHF0XK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QQHJDHF0XK');
+</script>
+
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+
+Template 2092 Shelf
+
+http://www.tooplate.com/view/2092-shelf
+
+-->
+    <meta name="description" content="Open-source software from the Szpiech Lab at Penn State for detecting natural selection, calling runs of homozygosity, measuring allelic diversity, and studying introgression and local relatedness.">
+    <title>Szpiech Lab</title>
+
+    <!-- load stylesheets -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">-->  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+    <style>
+        .tm-software-item { margin-bottom: 1.6rem; }
+        .tm-software-item h3 { font-size: 1.3rem; margin-bottom: 0.3rem; }
+        .tm-software-item p { margin-bottom: 0.3rem; }
+        .tm-software-papers { font-size: 0.9rem; }
+        .tm-software-sub { margin-top: 2.5rem; }
+    </style>
+</head>
+
+    <body>
+        
+        <div class="container">
+            <header class="tm-site-header">
+                <h1 class="tm-site-name">Szpiech Lab</h1>
+                <p class="tm-site-description">Population Genetics | Evolutionary Genomics</p>
+                
+                <nav class="navbar navbar-expand-md tm-main-nav-container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
+                        <ul class="nav nav-fill tm-main-nav-ul">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="people.html">People</a></li>
+                            <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pubs.html">Publications</a></li>
+                            <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="software.html">Software</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+            </header>
+            
+            <div class="tm-main-content">
+                <section class="tm-margin-b-l">
+                    <header>
+                        <h2 class="tm-main-title">Software</h2>
+                    </header>
+                    <p>Software developed in the lab is open source and available on GitHub. If you use one of these programs, please cite the papers listed with it.</p><br>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/selscan">selscan</a></h3>
+                        <p>Computes haplotype-based statistics for detecting recent positive selection (EHH, iHS, XP-EHH, nSL, XP-nSL, and iHH12). It runs on phased or unphased data and is available through Bioconda.</p>
+                        <p class="tm-software-papers">Papers: <a href="https://doi.org/10.1093/molbev/msu211">Szpiech and Hernandez (2014)</a>, <a href="https://doi.org/10.1002/evl3.232">Szpiech et al. (2021)</a>, <a href="https://doi.org/10.1093/bioinformatics/btae006">Szpiech (2024)</a>, <a href="https://doi.org/10.1093/molbev/msaf275">Rahman et al. (2025)</a>, <a href="https://doi.org/10.47248/hpgg2606020005">Rahman et al. (2026)</a></p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/lassip">lassip</a></h3>
+                        <p>Computes haplotype frequency spectrum statistics for detecting hard and soft selective sweeps, including saltiLASSI, LASSI, H12, H2/H1, G123, and G2/G1. It runs on phased or unphased data, with or without missing genotypes.</p>
+                        <p class="tm-software-papers">Papers: <a href="https://doi.org/10.1371/journal.pgen.1010134">DeGiorgio and Szpiech (2022)</a>, <a href="https://doi.org/10.64898/2026.05.08.723766">Sequeira et al. (2026, preprint)</a></p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/garlic">GARLIC</a></h3>
+                        <p>Calls runs of homozygosity (ROH) in genotype data and classifies them by length.</p>
+                        <p class="tm-software-papers">Papers: <a href="https://doi.org/10.1093/bioinformatics/btx102">Szpiech et al. (2017)</a>, <a href="https://doi.org/10.1186/s12864-017-4312-3">Blant et al. (2017)</a></p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/ADZE">ADZE</a></h3>
+                        <p>Uses rarefaction to estimate allelic richness and private allelic richness while correcting for differences in sample size among populations.</p>
+                        <p class="tm-software-papers">Papers: <a href="https://doi.org/10.1093/bioinformatics/btn478">Szpiech et al. (2008)</a>, <a href="https://doi.org/10.48550/arXiv.2611.12472">Szpiech (2026, preprint)</a></p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/TQ-Smith/LODESTAR">LODESTAR</a></h3>
+                        <p>Finds genomic regions where local patterns of relatedness depart from the genome-wide pattern or from sampling geography, using multidimensional scaling and Procrustes analysis. It is available through Bioconda.</p>
+                        <p class="tm-software-papers">Papers: <a href="https://doi.org/10.1101/2025.05.02.651970">Smith et al. (2025, preprint)</a></p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/TQ-Smith/DSTAR">DSTAR</a></h3>
+                        <p>Computes D*, a rarefaction-based statistic for identifying local introgression in a three-population tree that does not require an outgroup. It is available through Bioconda.</p>
+                        <p class="tm-software-papers">Papers: <a href="https://doi.org/10.1093/molbev/msag280">Smith and Szpiech (2026)</a></p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/TQ-Smith/EGGS">EGGS</a></h3>
+                        <p>Modifies genotype data to resemble empirical data by removing phase, unpolarizing alleles, pseudohaploidizing samples, adding sequencing error, and introducing missing genotypes. It also converts EIGENSTRAT files to VCF. It is available through Bioconda.</p>
+                        <p class="tm-software-papers">Papers: <a href="https://doi.org/10.1093/bioadv/vbag125">Smith et al. (2026)</a></p>
+                    </div>
+                    <h2 class="tm-main-title tm-software-sub">Utilities</h2>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/asd">asd</a></h3>
+                        <p>Computes pairwise allele sharing distances and genetic relationship matrices with multiple threads.</p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/divstats">divstats</a></h3>
+                        <p>Computes diversity statistics in windows, including nucleotide diversity, the number of segregating sites, Tajima's D, Fay and Wu's H, and EHH.</p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/predictGMAP">predictGMAP</a></h3>
+                        <p>Interpolates genetic map positions for a set of query positions from a reference genetic map.</p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/Rxy-kin">Rxy-kin</a></h3>
+                        <p>Computes the Rxy statistic for testing purging of deleterious alleles, with support for related samples.</p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/blue_af">blue_af</a></h3>
+                        <p>Computes best linear unbiased estimates (BLUE) of allele frequencies using a kinship matrix and writes them in GARLIC's .freq format.</p>
+                    </div>
+                    <div class="tm-software-item">
+                        <h3><a href="https://github.com/szpiech/ROHsims">ROHsims</a></h3>
+                        <p>Simulation code from <a href="https://doi.org/10.1016/j.ajhg.2019.08.011">Szpiech et al. (2019)</a> <i>AJHG</i>.</p>
+                    </div>
+                    <p class="tm-software-more">More code is available on <a href="https://github.com/szpiech">GitHub</a>.</p>
+                </section>
+            </div>
+
+            <footer>
+                Copyright &copy; <span class="tm-current-year">2026</span>
+            </footer>  
+        </div>
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="js/popper.min.js"></script>                <!-- Popper (https://popper.js.org/) -->
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
+        <script>     
+       
+            $(document).ready(function(){
+                
+                // Update the current year in copyright
+                $('.tm-current-year').text(new Date().getFullYear());
+
+            });
+
+        </script>             
+
+</body>
+</html>
