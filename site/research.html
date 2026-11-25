@@ -37,6 +37,12 @@ http://www.tooplate.com/view/2092-shelf
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
 
+    <style>
+        .tm-research-row { margin-bottom: 3rem; }
+        .tm-research-row .tm-main-title { font-size: 1.6rem; }
+        .tm-research-row .figure { width: 100%; }
+        .tm-research-row .figure-caption { font-size: 0.8rem; line-height: 1.35; }
+    </style>
 </head>
 
     <body>
@@ -68,47 +74,55 @@ http://www.tooplate.com/view/2092-shelf
             
             <div class="tm-main-content">
                 <section class="tm-margin-b-l">
-                    <table width=100%>
-                        <tr>
-                            <td align=center>
-                                <img src="img/af-del.jpg" alt="Distribution of PSC scores of variants by nonreference allele frequency in the 1000 Genomes Project" align=center>
-                            </td>
-                            
-                            <td>
-                                <header>
-                                    <h2 class="tm-main-title">Population Genetics</h2>    
-                                </header>
-                                    We use theory, simulations, and large scale data analysis to address questions pertaining to the relationship between recent demographic history, inbreeding, and natural selection on the distribution of genetic variation within and between populations. 
-                                    
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <header>
-                                    <h2 class="tm-main-title">Evolution of Populations</h2>    
-                                </header>
-                                    Populations adapt to their local environment in order to survive and thrive. In a rapidly changing world, it is critical to understand the ways in which populations are shaped in response to their environment. We develop methods and software aimed at identifying the genomic consequences of adaptation to local environments.
-                                    
-                            </td>
-                        
-                            <td align=center>
-                                <img src="img/adapt.png" alt="|iHS| scores along chromosome 2 (134.5 to 137.5 Mb) in 1000 Genomes Project populations" align=center>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align=center>
-                                <img src="img/roh-pheno.png" alt="Phenotype effect as a function of total ROH length for short, medium, and long ROH in two populations" align=center>
-                            </td>
-                            
-                            <td>
-                                <header>
-                                    <h2 class="tm-main-title">Complex Traits</h2>    
-                                </header>
-                                    We are interested in understanding how the distribution of complex traits within and between populations is affected by population history and evolutionary forces. Through simulations and data analysis, we aim to exploit our knowledge of these processes to learn about the origin and genetic architecture of disease and other phenotypes.
-                                    
-                            </td>
-                        </tr>
-                    </table>
+                    <div class="row align-items-center tm-research-row">
+                        <div class="col-md-5">
+                            <figure class="figure mb-0">
+                                <a href="img/xpnsl-egln1.jpg"><img src="img/xpnsl-egln1.jpg" alt="XP-nSL scores near EGLN1 in high-altitude rhesus macaques" class="figure-img img-fluid"></a>
+                                <figcaption class="figure-caption">XP-nSL scores near <i>EGLN1</i> in high-altitude rhesus macaques. From <a href="https://doi.org/10.1002/evl3.232">Szpiech et al. (2021)</a>, <i>Evolution Letters</i>.</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="tm-main-title">Detecting Natural Selection</h2>
+                            <p>When a beneficial mutation rises quickly in frequency, it carries a long haplotype with it, and recombination breaks this haplotype down over time. We develop statistics that use these haplotype patterns to detect recent positive selection, including local adaptation between populations. We also develop efficient software so that these scans can be applied to large genomic datasets.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center tm-research-row">
+                        <div class="col-md-5 order-md-2">
+                            <figure class="figure mb-0">
+                                <a href="img/kirtlands-roh.jpg"><img src="img/kirtlands-roh.jpg" alt="Runs of homozygosity across the Kirtland&#x27;s warbler genome" class="figure-img img-fluid"></a>
+                                <figcaption class="figure-caption">ROH across the Kirtland’s warbler genome. Darker shading shows where ROH from different individuals overlap. From <a href="https://doi.org/10.1111/eva.70052">Calderón et al. (2024)</a>, <i>Evolutionary Applications</i>.</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="tm-main-title">Runs of Homozygosity and Genetic Load</h2>
+                            <p>Runs of homozygosity (ROH) are long stretches of homozygous genotypes that arise when an individual inherits two identical haplotypes from a common ancestor. The number and length of ROH in a genome reflect population history, including bottlenecks, isolation, and inbreeding. We develop methods to identify ROH, and we study how these demographic processes affect the efficacy of purifying selection and the distribution of deleterious variation. We work with data from human populations as well as from species of conservation concern, where small population size and inbreeding may affect long-term viability.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center tm-research-row">
+                        <div class="col-md-5">
+                            <figure class="figure mb-0">
+                                <a href="img/dog-height-roh-gwas.jpg"><img src="img/dog-height-roh-gwas.jpg" alt="Manhattan plot of ROH-associated loci for height in dogs" class="figure-img img-fluid"></a>
+                                <figcaption class="figure-caption">ROH-associated loci for height in dogs. From <a href="https://doi.org/10.1093/g3journal/jkag195">Sweetalana, Nataneli et al. (2026)</a>, <i>G3</i>.</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="tm-main-title">Complex Traits</h2>
+                            <p>Because long ROH are enriched for deleterious variation, the amount of an individual's genome in ROH may be associated with complex traits. We use simulations and data analysis to study how population history and the genetic architecture of a trait affect these associations. In doing so, we aim to learn about the origin and genetic architecture of disease and other phenotypes.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center tm-research-row">
+                        <div class="col-md-5 order-md-2">
+                            <figure class="figure mb-0">
+                                <a href="img/dstar-introgression-tree.jpg"><img src="img/dstar-introgression-tree.jpg" alt="Population tree with introgression from population 3 into population 2" class="figure-img img-fluid"></a>
+                                <figcaption class="figure-caption">Demographic model with introgression from P<sub>3</sub> into P<sub>2</sub>. From <a href="https://doi.org/10.1093/molbev/msag280">Smith and Szpiech (2026)</a>, <i>Molecular Biology and Evolution</i>.</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="tm-main-title">Complex Demographic Histories</h2>
+                            <p>Many populations do not fit the assumptions of a single, panmictic population. Populations may be formed by admixture between previously separated groups, individuals may choose mates non-randomly, and genetic material can enter a population from another population or species through introgression. Each of these processes leaves patterns in the genome, and we develop methods that use these patterns to make inferences about demographic histories, assortative mating, and introgression.</p>
+                        </div>
+                    </div>
+
                     <br>
                     Supported by generous funding from:<br><br>
                         <img src="img/ecos.png" alt="PSU ECoS" height="50"> <img src="img/nigmslogo_lrg.jpg" alt="NIH NIGMS" height="50">
