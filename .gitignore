@@ -1,0 +1,17 @@
+# Repository root is ~/Dropbox/website. Only site/ is deployed, so .git/
+# lives beside site/, never inside it.
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Large published data archives in site/data (2.1 GB total). These are
+# fixed files, so they are kept out of git history. They still deploy
+# with site/ as before.
+site/data/*.zip
+site/data/*.tar
+site/data/*.tar.gz
+
+# Working files that should not be tracked
+*~
+*.swp
